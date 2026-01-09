@@ -56,6 +56,11 @@ class Tiger extends Animal {
 public class App {
     public static void main(String[] args) throws Exception {
         
-        
+        Animal myBird = new Bird();
+        Animal myTiger = new Tiger();
+        myBird.eat();
+        myBird.makeSound();
+        myTiger.eat();
+        myTiger.makeSound();
     }
 }
