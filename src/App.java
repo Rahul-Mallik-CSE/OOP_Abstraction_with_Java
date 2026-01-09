@@ -21,6 +21,33 @@ abstract class Animal {
     public void eat(){
         System.out.println("Animal is eating");
     }
+
+    //abstract method
+    public abstract void makeSound();
+}
+
+class Bird extends Animal {
+    //constructor
+    Bird(){
+       name= "Bird";
+    }
+
+    //implementing abstract method
+    public void makeSound(){
+        System.out.println("Chirp Chirp");
+    }
+}
+
+class Tiger extends Animal {
+    //constructor
+    Tiger(){
+       name= "Tiger";
+    }
+
+    //implementing abstract method
+    public void makeSound(){
+        System.out.println("Roar Roar");
+    }
 }
 
 
@@ -28,6 +55,7 @@ abstract class Animal {
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
+        
     }
 }
