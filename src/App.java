@@ -19,7 +19,7 @@ abstract class Animal {
 
     //concrete method
     public void eat(){
-        System.out.println("Animal is eating");
+        System.out.println(name + " is eating");
     }
 
     //abstract method
