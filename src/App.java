@@ -46,7 +46,7 @@ class Tiger extends Animal {
 
     //implementing abstract method
     public void makeSound(){
-        System.out.println("Roar Roar");
+        System.out.println(name+ ": Roar Roar");
     }
 }
 
