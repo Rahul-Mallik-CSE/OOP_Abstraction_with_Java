@@ -7,6 +7,10 @@ abstract class Animal {
 
     }
 
+    Animal(String name, String color){
+       this(name,color,0.0);   
+    }
+
     Animal(String name, String color, double weight){
         this.name = name;
         this.color = color;
